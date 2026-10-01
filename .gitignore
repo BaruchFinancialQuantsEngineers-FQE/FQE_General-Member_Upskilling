@@ -1,0 +1,23 @@
+# Generated data (run python data/make_data.py)
+data/prices.csv
+data/tickers.csv
+data/fqe.db
+
+# Generated charts from the pandas case study
+pandas/output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
