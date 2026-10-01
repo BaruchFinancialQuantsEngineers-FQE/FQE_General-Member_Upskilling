@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fqe-fall26-skills"
+version = "0.1.0"
+description = "Drills, exercises, and starter code for the FQE Fall 2026 general member skills plan."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "pytest",
+    "jupyter",
+]
+
+[tool.setuptools.packages.find]
+where = ["backtest"]
+include = ["fqe_backtest*"]
+
+[tool.pytest.ini_options]
+testpaths = ["drills/market_making", "backtest/tests"]
+addopts = "--import-mode=importlib"
