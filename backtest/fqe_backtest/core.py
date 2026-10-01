@@ -75,6 +75,10 @@ def sharpe(returns: pd.Series, periods: int = 252) -> float:
     ``sharpe = mean(r) / std(r) * sqrt(periods)``, where ``std`` is the sample
     standard deviation (``ddof=1``). NaN values are dropped first.
 
+    The ``sqrt(periods)`` scaling assumes returns are independent and
+    identically distributed. With autocorrelated returns it can misstate the
+    annual figure (Lo, 2002, "The Statistics of Sharpe Ratios").
+
     Args:
         returns: Per-bar returns.
         periods: Bars per year. Use 252 for daily data.
