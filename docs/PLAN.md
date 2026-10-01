@@ -69,7 +69,7 @@ Time budgets are for a member who attends the event and completes the folder wor
 
 - **Club events:** Checkpoint 1, Wednesday, October 14. Brainteaser Battle, Thursday, October 15.
 - **Folder:** `problems/brainteasers.md`.
-- **Commands:** Open `problems/brainteasers.md` and work B01 to B30 in order, attempting each before opening its solution. File Checkpoint 1 by opening a new issue from the "Checkpoint 1 (Oct 14)" template. When `problems/verify.py` ships, run:
+- **Commands:** Open `problems/brainteasers.md` and work B01 to B30 in order, attempting each before opening its solution. File Checkpoint 1 by opening a new issue from the "Checkpoint 1 (Oct 14)" template. To confirm the published answers, run:
 
   ```bash
   python problems/verify.py
@@ -100,7 +100,7 @@ Time budgets are for a member who attends the event and completes the folder wor
 ### Week of October 26
 
 - **Club event:** Math Competition, Friday, October 30.
-- **Folder:** `problems/math.md` (due to ship by October 22).
+- **Folder:** `problems/math.md`.
 - **Commands:** Work the 25 problems in `problems/math.md`. Count problems completed in both sets toward the 20 required for Checkpoint 2. Run `python problems/verify.py` if you edit or add any answer.
 - **Time:** 5 hours.
 - **Recruiting:** Follow up on any application submitted in early October. Read the [Jane Street trading interview primer](https://www.janestreet.com/static/pdfs/trading-interview.pdf) before any first-round interview.
@@ -295,7 +295,7 @@ max_dd = (equity / equity.cummax() - 1).min()
 
 **(e) Repository gaps noticed while writing this plan.**
 
-1. `problems/math.md` and `problems/verify.py` were not yet in the repository on October 1. The handoff sets an October 22 ship date for the math set, eight days before the Math Competition. The root README already tells members to run `python problems/verify.py`.
+1. Resolved: `problems/math.md` and `problems/verify.py` shipped on October 1; `python problems/verify.py` reports 53 passed, 0 failed, 2 skipped.
 2. Resolved: Checkpoint 2 now reads "Python 3.11 or later," matching the root README and `pyproject.toml`. The resource map notes that python.org no longer ships 3.11 binary installers after 3.11.9.
 3. Checkpoint 2 requires a project from the FQE project template repository. That template was not available when this repository was built. Publish its link or drop the item.
 4. The career research recommends a timed mental-math drill, because Optiver's first trading screen is an eight-minute, calculator-free numerical test. The repository has none.
