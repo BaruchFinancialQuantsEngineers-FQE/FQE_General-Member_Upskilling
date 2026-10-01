@@ -16,7 +16,7 @@ Copy this list into an issue or a Discord post. Check each box when the item is 
   - Link to slide:
 - [ ] Completed 20 probability problems from `problems/brainteasers.md` or `problems/math.md`
   - Problem numbers completed:
-- [ ] Set up Python 3.11 and installed this repository with `pip install -e .`
+- [ ] Set up Python 3.11 or later and installed this repository with `pip install -e .`
 - [ ] Set up Git: cloned this repository, made a branch, and pushed one commit
   - Link to branch or commit:
 - [ ] Set up a project from the FQE project template repository
