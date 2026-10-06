@@ -38,6 +38,7 @@ This repository holds the drills, exercises, problem sets, and code skeletons fo
 Other folders:
 
 - `docs/` holds the research and build plan behind this repository. Members do not need it to complete the exercises.
+- `docs/markets/README.md` is a markets primer by asset class for quant interviews and club events.
 - `slides/` holds presentation slides for workshops and the FQE slide template.
 - `.github/ISSUE_TEMPLATE/` holds the checkpoint task lists described below.
 

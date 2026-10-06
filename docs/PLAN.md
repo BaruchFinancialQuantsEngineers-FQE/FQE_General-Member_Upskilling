@@ -216,6 +216,8 @@ Each list is a short selection. The full tables, bibliographic details, and veri
 
 **Hackathon.** [Sharpe, "The Sharpe Ratio" (1994)](https://web.stanford.edu/~wfsharpe/art/art.htm); [Lo, "The Statistics of Sharpe Ratios" (2002)](https://traders.studentorg.berkeley.edu/papers/The-Statistics-of-Sharpe-Ratios.pdf), on when square-root-of-252 annualization overstates Sharpe; [Bailey et al. (2014)](https://www.ams.org/notices/201405/rnoti-p458.pdf), on backtest overfitting; [Kenneth French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) and [FRED API](https://fred.stlouisfed.org/docs/api/api_key.html) for free real data; [Newman Library financial data guide](https://guides.newman.baruch.cuny.edu/AccessFinData) for WRDS and Bloomberg. Do not commit vendor data.
 
+**Markets primer.** For how equities, rates, credit, FX, commodities, and derivatives trade and are quoted, with interview practice prompts, read the [markets primer](markets/README.md).
+
 ## 5. Checkpoints with pass criteria
 
 Criteria are copied from `.github/ISSUE_TEMPLATE/`. A checkpoint passes when every box is checked and each item has the requested evidence.
